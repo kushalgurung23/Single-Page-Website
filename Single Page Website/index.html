@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- viewport for website responsiveness in mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cloudhub Pvt. Ltd.</title>
+	<link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+	<!--- Script Source Files -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+	<script src="https://unpkg.com/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+
+	<!--- End of Script Source Files -->
+</head>
+
+<!-- It will scroll the nav bar's active sign as we scroll down the page-->
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+	<!-- Start Home Section -->
+	<div id="home">
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<!-- navbar-brand is a standard class for adding logo in the navigation bar -->
+			<a class="navbar-brand" href="#home">
+				<img src="image/cloudhubNav.png">
+			</a>
+			<!-- nav bar wil collapse and a navbar-toggler will appear when the screen size is decreased beyond 768px -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<!-- unordered list -->
+				<!-- margin left is set to auto -->
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">
+							Home
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#services">
+							Services
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#products">
+							Products
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">
+							About
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#emailUs">
+							Email Us
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">
+							Contact
+						</a>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+		<!-- End Navigation -->
+
+		<!-- Image Slider Page -->
+				<div id="Carousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#Carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#Carousel" data-slide-to="1"></li>
+						<li data-target="#Carousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+								<div class="fill" style="background-image: url('./image/picture1.png')"></div>
+								<div class="carousel-caption d-block text-center mb-5">
+									<h1 class="display-2">Cloudhub Pvt.Ltd.</h1>
+									<p class="lead">The One Stop For All Your Shoes Products.</p>
+									<a href="#services" class="btn btn-outline-light btn-lg cont-btn">
+										Get Started
+									</a>
+								</div>
+						</div>
+						<div class="carousel-item">
+							<div class="fill" style="background-image: url('./image/picture2.jpg')"></div>
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="carousel-item">
+							<div class="fill" style="background-image: url('./image/picture3.jpg')"></div>
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#Carousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#Carousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+
+			</div>
+		<!-- End Image Slider Page -->
+	</div>
+	<!-- End Home Section -->
+
+	<!-- Start Services Section -->
+	<section id = "services" class="services py-5 text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 mx-auto text-center">
+					<h2 class="text-capitalize product-title">
+						Our Services
+					</h2>
+					<hr class="my-2">
+				</div>
+				<!-- Start First Single Service -->
+				<div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+					<div class="service-icon">
+						<!-- class from font awesome for an icon, size = 2times the default size -->
+						<!-- i tag defines a part of text in alternate voice or mood. It's content is typically displayed in italic -->
+						<i class="fas fa-globe fa-2x"></i>
+					</div>
+					<h5 class="font-weight-bold text-uppercase">
+						WorldWide Shipping
+					</h5>
+					<p class="text-capitalize">
+						Get your products within 5 days from your payment date. Shipping is 100% free, if you live in Nepal.
+					</p>
+				</div>
+				<!-- End First Single Service -->
+
+				<!-- Start Second Single Service -->
+				<div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+					<span class="service-icon">
+						<i class="fas fa-shopping-bag fa-2x"></i>
+					</span>
+					<h5 class="font-weight-bold text-uppercase">
+						Top Quality Products
+					</h5>
+					<p class="text-capitalize">
+						Our products are of top quality. Get yours now in an amazing price.
+					</p>
+				</div>
+				<!-- End Second Single Service -->
+
+				<!-- Start Third Single Service -->
+				<div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+					<span class="service-icon">
+						<i class="fas fa-users fa-2x"></i>
+					</span>
+					<h5 class="font-weight-bold text-uppercase">
+						Our Customers
+					</h5>
+					<p class="text-capitalize">
+						We have currently served more than 50,000 customers worldwide in just 2 years.
+					</p>
+				</div>
+				<!-- End Third Single Service -->
+
+			</div>
+		</div>
+	</section>
+	<!-- End Services Section -->
+
+	<!-- Start Products Section -->
+	<section id="products" class="products py-5">
+		<div class="container">
+			<!-- Start Products title -->
+			<div class="row">
+				<div class="col-12 mx-auto col-sm-7 col-md-6 text-center">
+					<h2 class="text-capitalize product-title">
+						Our Products
+					</h2>
+				</div>
+			</div>
+			<!-- End Products title -->
+
+			<hr class="my-2">
+
+			<!-- Start Our Products -->
+			<div class="row product-items" id="product-items">
+				<!-- Start 1st Single Product item -->
+
+				<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+					<div class="card single-item">
+						<div class="img-container">
+							<img src="image/product1.jpg" alt="Nike Joyride Run Flyknit" class="card-img-top product-img">
+						</div>
+						<div class="card-body">
+							<div class="card-text d-flex justify-content-between text-capitalize">
+								<h6 id="item-name">Nike Joyride Run Flyknit</h6>
+								<span>
+									<i class="fas fa-dollar-sign"></i>49
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- End 1st Single Product item -->
+
+				<!-- Start 2nd Single Product item -->
+
+				<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+					<div class="card single-item">
+						<div class="img-container">
+							<img src="image/product2.jpg" alt="Nike Joyride NSW" class="card-img-top product-img">
+						</div>
+						<div class="card-body">
+							<div class="card-text d-flex justify-content-between text-capitalize">
+								<h6 id="item-name">Nike Joyride NSW</h6>
+								<span>
+									<i class="fas fa-dollar-sign"></i>40
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- End 2nd Single Product item -->
+
+				<!-- Start 3rd Single Product item -->
+
+				<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+					<div class="card single-item">
+						<div class="img-container">
+							<img src="image/product3.jpg" alt="Nike Epic React Flyknit" class="card-img-top product-img">
+						</div>
+						<div class="card-body">
+							<div class="card-text d-flex justify-content-between text-capitalize">
+								<h6 id="item-name">Nike Epic React Flyknit</h6>
+								<span>
+									<i class="fas fa-dollar-sign"></i>39
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- End 3rd Single Product item -->
+
+				<!-- Start 4th Single Product item -->
+
+				<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+					<div class="card single-item">
+						<div class="img-container">
+							<img src="image/product4.jpg" alt="Adidas NMD_R1 tie-dye" class="card-img-top product-img">
+						</div>
+						<div class="card-body">
+							<div class="card-text d-flex justify-content-between text-capitalize">
+								<h6 id="item-name">Adidas NMD_R1 tie-dye</h6>
+								<span>
+									<i class="fas fa-dollar-sign"></i>30
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- End 4th Single Product item -->
+
+				<!-- Start 5th Single Product item -->
+
+				<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+					<div class="card single-item">
+						<div class="img-container">
+							<img src="image/product5.jpg" alt="Star Wars Adidas" class="card-img-top product-img">
+						</div>
+						<div class="card-body">
+							<div class="card-text d-flex justify-content-between text-capitalize">
+								<h6 id="item-name">Star Wars Adidas</h6>
+								<span>
+									<i class="fas fa-dollar-sign"></i>32
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- End 5th Single Product item -->
+
+				<!-- Start 6th Single Product item -->
+
+				<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+					<div class="card single-item">
+						<div class="img-container">
+							<img src="image/product6.jpg" alt="Adidas NMD_R1" class="card-img-top product-img">
+						</div>
+						<div class="card-body">
+							<div class="card-text d-flex justify-content-between text-capitalize">
+								<h6 id="item-name">Adidas NMD_R1</h6>
+								<span>
+									<i class="fas fa-dollar-sign"></i>30
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- End 6th Single Product item -->
+
+				<!-- Start 7th Single Product item -->
+
+				<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+					<div class="card single-item">
+						<div class="img-container">
+							<img src="image/product7.jpg" alt="Fila Axilus 2 Energized" class="card-img-top product-img">
+						</div>
+						<div class="card-body">
+							<div class="card-text d-flex justify-content-between text-capitalize">
+								<h6 id="item-name">Fila Axilus 2 Energized</h6>
+								<span>
+									<i class="fas fa-dollar-sign"></i>35
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- End 7th Single Product item -->
+
+				<!-- Start 8th Single Product item -->
+
+				<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+					<div class="card single-item">
+						<div class="img-container">
+							<img src="image/product8.jpg" alt="Fila Ray Tracer" class="card-img-top product-img">
+						</div>
+						<div class="card-body">
+							<div class="card-text d-flex justify-content-between text-capitalize">
+								<h6 id="item-name">Fila Ray Tracer</h6>
+								<span>
+									<i class="fas fa-dollar-sign"></i>38
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- End 8th Single Product item -->
+
+				<!-- Start 9th Single Product item -->
+
+				<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+					<div class="card single-item">
+						<div class="img-container">
+							<img src="image/product9.jpg" alt="Fila Disruptor 2 Premium" class="card-img-top product-img">
+						</div>
+						<div class="card-body">
+							<div class="card-text d-flex justify-content-between text-capitalize">
+								<h6 id="item-name">Fila Disruptor 2 Premium</h6>
+								<span>
+									<i class="fas fa-dollar-sign"></i>30
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- End 9th Single Product item -->
+
+			</div>
+			<!-- End Our Products -->
+		</div>
+	</section>
+	<!-- End Products Section -->
+
+	<!-- Start About -->
+	<section id="about">
+		<div class="container-fluid">
+			<div class="row align-items-center px-3">
+				<div class="col-lg-3 text-center">
+					<img src="image/cloudhubAbout.png" width="400" height="150" class="img-fluid about-img">
+				</div>
+				<div class="col-lg-9 text-lg-right text-center text-color about-text">
+					<h2>About Cloudhub Pvt. Ltd.</h2>
+					<hr class="my-2">
+					<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsa reiciendis placeat inventore et dolore amet illo, eligendi nobis voluptate dolorum itaque quam provident! Voluptatibus perferendis illum necessitatibus dolor maiores nostrum neque, amet sed officia velit voluptatem in recusandae provident iste? Vitae ea necessitatibus, ipsam dolores veniam eaque maiores tempora.</p>
+					<p class="text">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio placeat quibusdam ab maiores, ipsum ut nostrum minus voluptate pariatur modi ipsam accusamus error velit nemo odio dolores repudiandae ad mollitia aspernatur perferendis architecto. Repellendus ipsum earum reiciendis consequuntur, quod expedita dolor qui nemo, ad modi nam rerum, adipisci quis fuga.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About -->
+
+	<!-- Start Email Us -->
+	<section id="emailUs" class="emailUs">
+		<div class="jumbotron">
+			<h2 class="section-heading text-center">Email Us</h2>
+			<hr class="my-2">
+			<form class="col-lg-6 offset-lg-3">
+				<div class="form-group">
+					<label for="email">Email Address</label>
+					<input type="email" id="email" class="form-control" aria-describedby="emailHelp" placeholder="name@example.com" required>
+				</div>
+				<div class="form-group">
+					<label for="name">Full Name</label>
+					<input type="text" id="name" class="form-control" placeholder="e.g. Mason Mount" required>
+				</div>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<textarea class="form-control" id="message" placeholder="Your Message" rows="5" required></textarea>
+				</div>
+				<div class="form-group form-check">
+					<input type="checkbox" class="form-check-input" id="check">
+					<label class="form-check-label" for="check">
+						Subscribe for getting notifications
+					</label>
+				</div>
+				<div class="text-center">
+					<button class="btn btn-lg btn-dark cont-btn">
+						Send
+					</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- End Email Us -->
+
+	<!-- Start Contact -->
+	<footer id="contact" class="offset">
+		<div class="text-center pt-5 ">
+			<img src="./image/cloudhubNav.png"><br><br>
+			<div class="mx-auto heading-line"></div>
+		</div>
+		<div class="container">
+			<div class="container">
+				<div class="row mb-3">
+					<div class="col-lg-8 offset-lg-2 text-center">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Corrupti eius quibusdam quo molestiae animi. Nam!</p>
+					</div>
+					<div class="contact-item col-lg-8 offset-lg-2 text-center px-6">
+						<strong>Contact Info</strong>
+						<p>+977-9814140613<br>Pokhara-08, Newroad, Nepal<br>cloudhub.nepal@gmail.com</p>
+						<br>
+						<i class="fab fa-facebook fa-2x mx-2"></i>
+						<i class="fab fa-instagram fa-2x mx-2"></i>
+						<i class="fab fa-twitter fa-2x mx-2"></i>
+					</div>
+					
+				</div>
+				<div class="copyright text-center py-3 border-top text-light">
+					<h6>&copy; 2020 Cloudhub Pvt. Ltd.</h6>
+					<p>Developed by: Kushal Gurung</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- End Contact -->
+
+</body>
+</html>
